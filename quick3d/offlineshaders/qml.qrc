@@ -1,0 +1,8 @@
+<RCC>
+    <qresource prefix="/">
+        <file>main.qml</file>
+        <file>MaterialRed.qml</file>
+        <file>MaterialRedExtended.qml</file>
+        <file>maps/metallic/basecolor.jpg</file>
+    </qresource>
+</RCC>

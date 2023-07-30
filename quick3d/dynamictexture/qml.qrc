@@ -1,0 +1,15 @@
+<RCC>
+    <qresource prefix="/">
+        <file>main.qml</file>
+        <file>Doors.qml</file>
+        <file>CorkBoards.qml</file>
+        <file>meshes/door1.mesh</file>
+        <file>meshes/door2.mesh</file>
+        <file>meshes/wall.mesh</file>
+        <file>content/cork.jpg</file>
+        <file>content/note-yellow.png</file>
+        <file>content/tack.png</file>
+        <file>content/Panel.qml</file>
+    </qresource>
+</RCC>
+
