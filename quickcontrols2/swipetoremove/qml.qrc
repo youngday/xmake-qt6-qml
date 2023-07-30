@@ -1,0 +1,6 @@
+<RCC>
+    <qresource prefix="/">
+        <file>fonts/fontello.ttf</file>
+        <file>swipetoremove.qml</file>
+    </qresource>
+</RCC>

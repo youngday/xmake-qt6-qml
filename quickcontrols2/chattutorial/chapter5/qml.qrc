@@ -1,0 +1,11 @@
+<RCC>
+    <qresource prefix="/chapter5">
+        <file>main.qml</file>
+        <file>Material/ChatToolBar.qml</file>
+        <file>ChatToolBar.qml</file>
+        <file>ContactPage.qml</file>
+        <file>ConversationPage.qml</file>
+        <file>main.qml</file>
+        <file>qtquickcontrols2.conf</file>
+    </qresource>
+</RCC>

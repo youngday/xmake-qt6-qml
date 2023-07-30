@@ -1,0 +1,13 @@
+<RCC>
+    <qresource prefix="/">
+    <file>MainForm.ui.qml</file>
+    <file>flatstyle.qml</file>
+    <file>imports/Flat/Button.qml</file>
+    <file>imports/Flat/CheckBox.qml</file>
+    <file>imports/Flat/Switch.qml</file>
+    <file>imports/Flat/qmldir</file>
+    <file>imports/Theme/Theme.qml</file>
+    <file>imports/Theme/qmldir</file>
+    <file>qtquickcontrols2.conf</file>
+    </qresource>
+</RCC>

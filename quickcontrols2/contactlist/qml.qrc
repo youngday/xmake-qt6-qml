@@ -1,0 +1,11 @@
+<RCC>
+    <qresource prefix="/">
+    <file>ContactDelegate.ui.qml</file>
+    <file>ContactDialog.qml</file>
+    <file>ContactForm.ui.qml</file>
+    <file>ContactView.ui.qml</file>
+    <file>SectionDelegate.ui.qml</file>
+    <file>contactlist.qml</file>
+    <file>designer/Backend/ContactModel.qml</file>
+    </qresource>
+</RCC>
