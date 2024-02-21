@@ -2,5 +2,6 @@
     <qresource prefix="/">
         <file>main.qml</file>
         <file>teapot.mesh</file>
+        <file>meshes/defaultobject.mesh</file>
     </qresource>
 </RCC>

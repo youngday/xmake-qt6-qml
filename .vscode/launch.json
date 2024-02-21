@@ -1,16 +1,72 @@
 {
-    // 使用 IntelliSense 了解相关属性。 
-    // 悬停以查看现有属性的描述。
-    // 欲了解更多信息，请访问: https://go.microsoft.com/fwlink/?linkid=830387
-    "version": "0.2.0",
-    "configurations": [
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "lldb",
+      "request": "launch",
+      "name": "demo",
+      "program": "${workspaceFolder}/build/linux/x86_64/debug/demo",
+      "args": [],
+      "cwd": "${workspaceFolder}/build/linux/x86_64/debug"
+    },
+    {
+      "type": "lldb",
+      "request": "launch",
+      "name": "video_recorder",
+      "program": "${workspaceFolder}/build/linux/x86_64/debug/video_recorder",
+      "args": [],
+      "cwd": "${workspaceFolder}/build/linux/x86_64/debug"
+    },
+    {
+      "type": "lldb",
+      "request": "launch",
+      "name": "video_recorder",
+      "program": "${workspaceFolder}/build/linux/x86_64/debug/video_recorder",
+      "args": [],
+      "cwd": "${workspaceFolder}/build/linux/x86_64/debug"
+    },
+    {
+      "type": "lldb",
+      "request": "launch",
+      "name": "video_qmlvideo",
+      "program": "${workspaceFolder}/build/linux/x86_64/debug/video_qmlvideo",
+      "args": [],
+      "cwd": "${workspaceFolder}/build/linux/x86_64/debug"
+    },
+    {
+      "type": "lldb",
+      "request": "launch",
+      "name": "declarative-camera",
+      "program": "${workspaceFolder}/build/linux/x86_64/debug/declarative-camera",
+      "args": [],
+      "cwd": "${workspaceFolder}/build/linux/x86_64/debug"
+    },
+    {
+      "type": "lldb",
+      "request": "launch",
+      "name": "view3d",
+      "program": "${workspaceFolder}/build/linux/x86_64/debug/view3d",
+      "args": [],
+      "cwd": "${workspaceFolder}/build/linux/x86_64/debug"
+    },
+    {
+      "name": "C/C++ Runner: Debug Session",
+      "type": "cppdbg",
+      "request": "launch",
+      "args": [],
+      "stopAtEntry": false,
+      "externalConsole": false,
+      "cwd": "/home/youngday/prj-qt/xmake-qt6-qml/multimedia/video/qmlvideo",
+      "program": "/home/youngday/prj-qt/xmake-qt6-qml/multimedia/video/qmlvideo/build/Debug/outDebug",
+      "MIMode": "gdb",
+      "miDebuggerPath": "gdb",
+      "setupCommands": [
         {
-            "type": "lldb",
-            "request": "launch",
-            "name": "demo",
-            "program": "${workspaceFolder}/build/linux/x86_64/debug/demo",
-            "args": [],
-            "cwd": "${workspaceFolder}/build/linux/x86_64/debug"
+          "description": "Enable pretty-printing for gdb",
+          "text": "-enable-pretty-printing",
+          "ignoreFailures": true
         }
-    ]
+      ]
+    }
+  ]
 }

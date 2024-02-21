@@ -85,9 +85,12 @@ Window {
         }
 
         Model {
-            source: "teapot.mesh"
+            id: defaultobject
+            // source: "teapot.mesh"
+            source: "meshes/defaultobject.mesh"
             y: -100
-            scale: Qt.vector3d(50, 50, 50)
+            // scale: Qt.vector3d(50, 50, 50)
+              scale: Qt.vector3d(500, 500, 500)
             materials: [
                 PrincipledMaterial {
                     baseColor: "#41cd52"
@@ -104,6 +107,10 @@ Window {
                 from: -360
             }
         }
+
+
+
+
 
         //! [cameras start]
         // The predefined cameras. They have to be part of the scene, i.e. inside the root node.
